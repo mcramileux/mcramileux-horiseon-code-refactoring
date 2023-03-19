@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Horiseon Social Solution Services, Inc.</title>
+    <!--changed to the company's name instead of just "website"-->
+</head>
+
+<body>
+    <!--header contains company's name and navigation links are placed here-->
+    <header>
+        <!--company's name-->
+        <h1>Hori<span class="seo">seo</span>n</h1>
+        <!--navigation bar with the comapny's services. the links has been fixed for them to function correctly-->
+        <nav>
+            <ul>
+                <li><a href="#search-engine-optimization">Search Engine Optimization</a> </li>
+                <li><a href="#online-reputation-management">Online Reputation Management</a></li>
+                <li><a href="#social-media-marketing">Social Media Marketing</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!--a present image of four people working together-->
+        <section class="hero">
+            <!--by adding an empty span with aria-label, creating an accessible way to describe the background image for users with limited perceptions. -->
+            <span role="img"
+                aria-label="an image of four people in a conference room sharing their ideas with laptop and other documents related."></span>
+            <!-- the background image is specified in CSS so that the nav elements overlap the image correctly-->
+        </section>
+
+        <!--list of services provided by the company-->
+        <section class="services">
+            <!--three sub-sections, each with a heading, image and decription detailing the company's services-->
+            <!--div was changed to article tags as it more specific elements to place it here-->
+            <!--first service categorised: search engine optimisation-->
+            <article id="search-engine-optimization" class="search-engine-optimization">
+                <img src="./assets/images/search-engine-optimization.jpg" class="float-left"
+                    alt="a laptop and a notebook with ideas on how to optimise search engine results" />
+                <h2>Search Engine Optimization</h2>
+                <p>
+                    The dominance of mobile internet use means that users are searching for the right business as they
+                    travel, shop, or sit on their couch at home. Search Engine Optimization (SEO) allows you to increase
+                    your visibility and find the right customers for your business.
+                </p>
+            </article>
+
+            <!--second service categorised: online reputation management-->
+            <article id="online-reputation-management" class="online-reputation-management">
+                <img src="./assets/images/online-reputation-management.jpg" class="float-right"
+                    alt="a laptop with a Reputation heading show multiple graphs increasing" />
+                <h2>Online Reputation Management</h2>
+                <p>
+                    The web is full of opinions, and some of these can be negative. Social media allows anyone with an
+                    internet connection to say whatever they want about your business. Online Reputation Management
+                    gives you the control over what potential customers see when they search for your business.
+                </p>
+            </article>
+            <!--third service categorised: social media marketing-->
+            <article id="social-media-marketing" class="social-media-marketing">
+                <img src="./assets/images/social-media-marketing.jpg" class="float-left"
+                    alt="a team of six people with multiple social media logos on a table" />
+                <h2>Social Media Marketing</h2>
+                <p>
+                    Social media continues to have a sizable influence on buying habits. Social media marketing helps
+                    you determine which platforms are suited to your brand, using analytics to find the right markets
+                    and increase your lead generation.
+                </p>
+            </article>
+        </section>
+
+        <!--lists of benefits of utilising the services of the company-->
+        <section class="benefits">
+            <!--three sub-sections, each with a heading, image and decription detailing the company's services-->
+            <!--div was changed to article tags as it more specific elements to place it here-->
+            <!--benefit: lead generation-->
+            <article class="benefit-lead">
+                <h3>Lead Generation</h3>
+                <img src="./assets/images/lead-generation.png" alt="an image of a screw head turning into a coin" />
+                <p>
+                    Inbound strategies for lead generation require less work for your business, bringing customers
+                    directly to your website.
+                </p>
+            </article>
+            <!--benefit: brand awareness-->
+            <article class="benefit-brand">
+                <h3>Brand Awareness</h3>
+                <img src="./assets/images/brand-awareness.png"
+                    alt="an image of a man with a lightbulb on alarm as a head" />
+                <p>
+                    Users find your business through paid and organic searches, increasing the search ranking and
+                    visibility for your business.
+                </p>
+            </article>
+            <!--benefit: cost management-->
+            <article class="benefit-cost">
+                <h3>Cost Management</h3>
+                <img src="./assets/images/cost-management.png" alt="an image of coins in front a screw " />
+                <p>
+                    As the search ranking for your business increases, your advertising costs decrease, and you no
+                    longer need to advertise your page.
+                </p>
+            </article>
+        </section>
+    </main>
+    <footer class="footer">
+        <!--company's name and copyright are placed here-->
+        <!--added class tags to the footer tag to be more specific-->
+        <h2>Made with ❤️️ by Horiseon</h2>
+        <p>
+            &copy; 2019 Horiseon Social Solution Services, Inc.
+        </p>
+    </footer>
+</body>
+
+</html>
