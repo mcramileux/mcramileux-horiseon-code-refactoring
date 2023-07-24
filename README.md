@@ -1,10 +1,10 @@
 # Mcramileux's Code Refactoring
 1st Challenge: HTML, CSS and Git - Code Refactor
 
-## Project Description
-**Horiseon Social Solution Services, Inc.** wants to have a polish webpage to showcase their services better and be more accessible. For Horiseon, improving their webpage will ensure that the people with disabilities can also access their website. 
+## Description
+The challenge aims to refactor the code of a single-page website for Horiseon Social Solution Services, Inc, a web marketing company, to improve accessibility by adding semantic tags, image alt tags, and other accessibility attributes. 
 
-In this project, it is already an existing code given by the client, just doing some improvements without changing what it does or *refactoring*.
+Additionally, the code will be made more readable and maintainable by reducing redundancy and consolidating CSS selectors, and image assets will be resized to optimize load speed while maintaining visual quality on high-dpi screens. The goal is to enhance the website's accessibility, search engine ranking, and overall user experience.
 
 ## Version History
 **Version 2.0**
@@ -34,7 +34,14 @@ In this project, it is already an existing code given by the client, just doing 
 - Github deployment
 
 ## Screenshot
+- Horiseon
 ![horiseon](https://github.com/mcramileux/mcramileux-horiseon-code-refactoring/assets/122607160/ba239b1e-9092-4710-8d43-bc369a283d4b)
+
+- Navigation Bar
+<img width="1784" alt="navbar" src="https://github.com/mcramileux/mcramileux-horiseon-code-refactoring/assets/122607160/d1af96f5-301a-4aae-922c-5287a9bb1d30">
+
+- Horiseon's Services
+<img width="1784" alt="categories" src="https://github.com/mcramileux/mcramileux-horiseon-code-refactoring/assets/122607160/8cb06bbe-9b63-4190-98d1-bc31f2809811">
 
 ## Link
 - GitHub Repository: https://mcramileux.github.io/mcramileux-horiseon-code-refactoring/
